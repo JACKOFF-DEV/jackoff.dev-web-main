@@ -1,0 +1,23 @@
+#title {
+
+}
+
+#titleHeader {
+    font-family: 'Comic Sans MS', 'Arial', 'Helvetica';
+    font-size: 54px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#titleSubTitle {
+    font-family: 'Comic Sans MS', 'Arial', 'Helvetica';    
+    font-size: 36px;
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
