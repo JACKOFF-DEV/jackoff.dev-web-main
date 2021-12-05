@@ -20,7 +20,18 @@
             </script>
         </div>
         <div id="titleSubTitle">
-            <h2>Cumming soon!</h2>
+            <h2 id="penis2">Coming soon!</h2>
+            <script>
+                var head2 = document.getElementById("penis2");
+                head2.innerHTML = 'Coming soon!';
+                setInterval(function() {
+                if (Math.random() < 0.1) {
+                    head2.innerHTML = 'Cumming soon!';
+                } else {
+                  head2.innerHTML = 'Coming soon!';
+                }
+                }, 1000);
+          </script>
         </div>
     </div>
 </body>
