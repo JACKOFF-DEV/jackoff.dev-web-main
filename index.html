@@ -1,37 +1,57 @@
 <!DOCTYPE HTML>
 <head>
-<title>JACKOFF</title>
-<link rel="stylesheet" href="styles/style.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VF0LGL6QZ4"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VF0LGL6QZ4');
+    </script>
+
+    <title>JACKOFF</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/spin.js"></script> 
+
 </head>
 
 <body>
     <div id="title">
         <div id="titleHeader">
-            <h1 id="penis">JACKOFF</h1>
-            <script>
-                var heading = document.getElementById("penis");
-                var color = 0;
-                setInterval(function()
-                {
-                    color++;
-                    heading.style.color = 'hsl(' + color + ', 100%, 50%)';
-                }, 100);
-
-            </script>
+            <h1 id="title">JACKOFF - gambling branch</h1>
         </div>
-        <div id="titleSubTitle">
-            <h2 id="penis2">Coming soon!</h2>
-            <script>
-                var head2 = document.getElementById("penis2");
-                head2.innerHTML = 'Coming soon!';
-                setInterval(function() {
-                if (Math.random() < 0.1) {
-                    head2.innerHTML = 'Cumming soon!';
-                } else {
-                  head2.innerHTML = 'Coming soon!';
-                }
-                }, 1000);
-          </script>
+
+        <div id="gameplay">
+            <div>
+                <div id="bet">
+                    <button id="betButton" onclick="betTime()">bet</button>
+                    <p id="betText">current bet: </p>
+                </div>
+
+                <div id="money">
+                    <p id="moneyText">money</p>
+                </div>
+                <div id="slot1">
+                    <p id="slot1Text">slot1</p>
+                </div>
+
+                <div id="slot2">
+                    <p id="slot2Text">slot2</p>
+                </div>
+
+                <div id="slot3">
+                    <p id="slot3Text">slot3</p>
+                </div>
+
+                <div id="spin">
+                    <button id="spinButton" onclick="spinToWin()">spin</button>
+                </div>
+
+                <div id="win">
+                    <p id="winText"></p>
+                </div>
+            </div>
         </div>
     </div>
 </body>

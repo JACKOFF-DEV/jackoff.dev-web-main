@@ -1,23 +1,42 @@
-#title {
-
-}
-
 #titleHeader {
     font-family: 'Comic Sans MS', 'Arial', 'Helvetica';
-    font-size: 54px;
+    font-size: 20px;
     margin: 0;
     position: absolute;
-    top: 40%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-#titleSubTitle {
-    font-family: 'Comic Sans MS', 'Arial', 'Helvetica';    
-    font-size: 36px;
+#gameplay {
+    font-family: 'Comic Sans MS', 'Arial', 'Helvetica';
+    font-size: 20px;
     margin: 0;
     position: absolute;
-    top: 55%;
+    border-left: 30px;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#spin{
+    position: relative;
+}
+
+#win {
+    position: relative;
+}
+
+#slot1 {
+    display: inline-block;
+    padding-right: 1.2em;
+}
+
+#slot2 {
+    display: inline-block;
+    padding-right: 1.2em;
+}
+
+#slot3 {
+    display: inline-block;
 }
